@@ -7,7 +7,7 @@ const app = express();
 
 // ✅ Enable CORS for your GitHub Pages domain
 app.use(cors({
-  origin: "https://Vyshu890.github.io"
+  origin: "https://vyshu890.github.io/"
 }));
 
 app.use(express.json());
